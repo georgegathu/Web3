@@ -18,6 +18,8 @@ contract ZombieFactory {
 
 	uint dnaDigits = 16;
 	uint dnaModulus = 10 ** dnaDigits;
-
+	
+	uint dnaAdd = 22 + dnaDigits;
+	uint dnaSub = 10 - dnaDigits;
 }
 
